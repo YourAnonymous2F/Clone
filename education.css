@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: burlywood;
+    font-family: sans-serif;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20%;
+    margin-top: 10px;
+    background-color: whitesmoke;
+    border: 1px solid grey;
+    width: 55%;
+    height: 40px;
+    padding: 0 15px;
+    border-radius: 20px;
+    box-shadow: 0 0px 3px black;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 0 3px;
+    color: black;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+nav a:hover{
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.button{
+    background-color: black;
+    width: 20%;
+    text-align: center;
+    height: 30px;
+    border-radius: 8px;
+}
+
+.button a{
+    text-decoration: none;
+}
+
+.button h4{
+    color: white;
+    padding-top: 7px;
+    font-size: 13px;
+}
+
+#body{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+.body-text h2{
+    font-size: 50px;
+    line-height: 1.5;
+}
+
+span{
+    background-color: orange;
+    height: 5px;
+    width: 20px;
+}
+
+.body-text p{
+    margin-top: 60px;
+    line-height: 1.5;
+}
+
+.get-started{
+    margin-top: 40px;
+    border: 2px solid black;
+    width: 40%;
+    text-align: center;
+    height: 35px;
+    border-radius: 25px;
+}
+
+.get-started a{
+    text-decoration: none;
+}
+
+.get-started h3{
+    margin-top: 8px;
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#image-border{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+}
+
+.images-1-2{
+    margin-left: 300px;
+}
+
+.image-1{
+    background-color: aqua;
+    background-size: cover;
+    border-radius: 10px;
+    width: 215px;
+    height: 220px;
+}
+
+.image-2{
+    margin-top: 60px;
+    background-color: purple;
+    background-size: cover;
+    border-radius: 10px;
+    width: 215px;
+    height: 220px
+}
+
+.image-3{
+    margin-left: 40px;
+    margin-top: 45px;
+    background-color: orange;
+    background-size: cover;
+    border-radius: 10px;
+    width: 248px;
+    height: 370px
+}
